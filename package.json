@@ -1,0 +1,22 @@
+{
+  "name": "@btb/core",
+  "scripts": {
+    "build": "wp-build",
+    "dev": "wp-build --watch"
+  },
+  "wpPlugin": {
+    "scriptGlobal": false,
+    "packageNamespace": "btb",
+    "pages": ["btb-homepage"]
+  },
+  "workspaces": [
+    "packages/*",
+    "routes/*"
+  ],
+  "devDependencies": {
+    "@wordpress/build": "^0.3.0"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.6.0"
+  }
+}

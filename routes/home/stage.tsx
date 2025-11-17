@@ -1,0 +1,1 @@
+export const stage = () => <div>Content</div>;
