@@ -15,8 +15,5 @@
   ],
   "devDependencies": {
     "@wordpress/build": "^0.3.0"
-  },
-  "dependencies": {
-    "moment-timezone": "^0.6.0"
   }
 }
