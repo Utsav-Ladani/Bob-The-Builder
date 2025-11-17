@@ -44,6 +44,6 @@ function btb_init() {
 add_action( 'init', __NAMESPACE__ . '\btb_init' );
 
 function btb_enqueue_scripts() {
-    wp_enqueue_script( 'wp-logger' );
+    wp_enqueue_script( 'btb-logger' );
 }
 add_action( 'admin_enqueue_scripts', __NAMESPACE__ . '\btb_enqueue_scripts' );
